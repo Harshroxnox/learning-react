@@ -1,0 +1,63 @@
+
+.myForm {
+    padding-bottom: 10px;
+}
+
+.myForm p{
+    margin-bottom: 4px;
+}
+
+.myForm h2 {
+    color: #e7cec3;
+    font-size: 35px;
+    text-decoration: underline;
+    margin: 18px 0px;
+}
+
+.myForm p span {
+    font-weight: 500;
+}
+
+/*Form Based Styling*/
+.myForm textarea {
+    height: 80px;
+    width: 290px;
+}
+
+.myForm input, textarea {
+    background-color: #1e1d1d;
+    padding: 4px;
+    border: none;
+    border-radius: 3px;
+}
+
+.myForm input:focus, textarea:focus {
+    outline: 1px #e7cec3 solid;
+}
+
+.myForm select {
+    background-color: #1e1d1d;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    outline: 1px #e7cec3 solid;
+}
+
+.myForm input[type="radio"] {
+    appearance: none;
+    background-color: #242424;
+    box-shadow: 0 0 0 0.15em #242424 inset;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid #e7cec3;
+    border-radius: 50%;
+    transform: translate(-0.13em, +0.1em);
+}
+
+.myForm input[type="radio"]:checked {
+    background-color: #e7cec3;
+}
+
+.myForm input[type="radio"]:focus {
+    outline: none;
+}

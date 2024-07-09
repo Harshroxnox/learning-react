@@ -1,0 +1,14 @@
+
+.student {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #E6B9A6;
+    border-radius: 10px;
+    color: #EEEDEB;
+    font-weight: 500;
+}
+
+.student p {
+    line-height: 14px;
+}

@@ -1,0 +1,26 @@
+.list ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.list h2 {
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.list li:hover {
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: ease-in;
+}
+
+.list {
+    display: inline-block;
+    border: 2px #E6B9A6 solid;
+    margin: 20px;
+    padding: 20px 40px;
+    padding-top: 0px;
+    border-radius: 10px;
+}
+
