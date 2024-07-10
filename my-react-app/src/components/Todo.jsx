@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import styles from './Todo.module.css'
 
 function Todo(){
 
@@ -36,17 +37,19 @@ function Todo(){
         }
     }
 
-    return(<div>
+    return(<div className={styles.todo}>
         <h2>To-Do-List</h2>
-        <input type='text' id='newTask' placeholder='Enter a task...'/>
-        <button onClick={addTask}>Add</button>
+        <div className={styles.addTask}>
+            <input type='text' id='newTask' placeholder='Enter a task...'/>
+            <button onClick={addTask}>Add</button>
+        </div>
         <ul>
             {tasks.map((task,index)=>(
                 <li key={index}>
-                    <span>{task}</span>
-                    <button onClick={()=>deleteTask(index)}>Delete</button>
-                    <button onClick={()=>moveTaskUp(index)}>👆️</button>
-                    <button onClick={()=>moveTaskDown(index)}>👇️</button>
+                    <p>{task}</p>
+                    <button className={styles.delBtn} onClick={()=>deleteTask(index)}>Delete</button>
+                    <button className={styles.moveBtn} onClick={()=>moveTaskUp(index)}>👆️</button>
+                    <button className={styles.moveBtn} onClick={()=>moveTaskDown(index)}>👇️</button>
                 </li>
             ))}
         </ul>
