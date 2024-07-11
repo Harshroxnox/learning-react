@@ -1,13 +1,13 @@
-import Header from './components/Header.jsx'
-import Footer from './components/Footer.jsx'
-import Food from './components/Food.jsx'
-import Student from './components/Student.jsx'
-import List from './components/List.jsx'
-import Button from './components/Button.jsx'
-import Form from './components/Form.jsx'
-import Todo from './components/Todo.jsx'
-import Clock from './components/Clock.jsx'
-import Stopwatch from './components/Stopwatch.jsx'
+import Header from './components/Header/Header.jsx'
+import Footer from './components/Footer/Footer.jsx'
+import Food from './components/Food/Food.jsx'
+import Student from './components/Student/Student.jsx'
+import List from './components/List/List.jsx'
+import Button from './components/Button/Button.jsx'
+import Form from './components/Form/Form.jsx'
+import Todo from './components/Todo/Todo.jsx'
+import Clock from './components/Clock/Clock.jsx'
+import Stopwatch from './components/Stopwatch/Stopwatch.jsx'
 
 function App() {
   const fruits = [
