@@ -1,0 +1,22 @@
+
+.clock {
+    margin: 15px;
+    padding: 15px;
+    border: 4px solid #e7cec3;
+    border-radius: 10px;
+}
+
+.clock h2 {
+    color: #e7cec3;
+    font-size: 50px;
+    margin: 0;
+    border-bottom: 4px solid #e7cec3;
+}
+
+.clock span {
+    color: #57bf90;
+    font-size: 80px;
+    font-weight: 800;
+    margin: 10px;
+    margin-top: 0;
+}

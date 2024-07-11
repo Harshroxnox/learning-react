@@ -33,7 +33,7 @@
     font-weight: 450;
     border-radius: 6px;
 }
-
+/*Increase li and p width both by the same amount */
 .todo li p {
     width: 200px;
 }

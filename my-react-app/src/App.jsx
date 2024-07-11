@@ -6,6 +6,7 @@ import List from './components/List.jsx'
 import Button from './components/Button.jsx'
 import Form from './components/Form.jsx'
 import Todo from './components/Todo.jsx'
+import Clock from './components/Clock.jsx'
 
 function App() {
   const fruits = [
@@ -42,6 +43,8 @@ function App() {
     <Form />
     <hr></hr>
     <Todo />
+    <hr></hr>
+    <Clock />
     <hr></hr>
     <Footer />
   </>)
