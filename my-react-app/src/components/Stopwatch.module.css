@@ -1,0 +1,68 @@
+
+.stopwatch h2 {
+    color: #e7cec3;
+    font-size: 35px;
+    margin: 18px 0px;
+}
+
+.stopwatch p {
+    color: #e7cec3;
+    font-size: 82px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.stopwatchContainer {
+    display: inline-block;
+    border: 2.5px solid #e9b39b;
+    border-radius: 10px;
+    padding:10px 20px;
+    margin: 10px 20px;
+}
+
+.buttons button {
+    font-size: 20px;
+}
+
+.start {
+    background: #40A578;
+}
+
+.start:hover {
+    border: 1.4px solid #242424;
+}
+
+.start:focus {
+    outline: 2px #388a65 solid;
+}
+
+.stop {
+    background: #EE4E4E;
+}
+
+.stop:hover {
+    border: 1.4px solid #242424;
+}
+
+.stop:focus {
+    outline: 2px #d44040 solid;
+}
+
+.reset {
+    background: #373A40;
+}
+
+.reset:hover {
+    border: 1.4px solid #242424;
+}
+
+.reset:focus {
+    outline: 2px #2a2c31 solid;
+}
+
